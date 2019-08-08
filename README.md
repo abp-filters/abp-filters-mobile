@@ -17,6 +17,7 @@ This filter list is based on EasyList (including [language supplemental filter l
 * [mile-ne](https://github.com/mile-ne)
 * [wizmak](https://github.com/wizmak)
 * [arsykan](https://github.com/arsykan)
+* [KrisGalcz](https://github.com/KrisGalcz)
 
 
 [View the full list of contributors](https://github.com/abp-filters/abp-filters-mobile/graphs/contributors).
