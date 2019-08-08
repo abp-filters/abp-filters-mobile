@@ -23,7 +23,7 @@ This filter list is based on EasyList (including [language supplemental filter l
 
 ## **Policy**
 
-View our policy.
+[View our policy.](https://github.com/abp-filters/abp-filters-mobile/blob/master/POLICY.md)
 
 ## **License**
 
