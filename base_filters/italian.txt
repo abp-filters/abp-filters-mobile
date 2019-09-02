@@ -3,24 +3,42 @@
 ! adserver popup rules
 
 ! generic blocking rules
+.it/ads.
+.it/ads/
 
 ! generic dimension blocking rules
 
 ! generic popup blocking rules
 
 ! generic element hiding rules
+###adv_nativ_sopracartina
+###adv_outbrain_AR_1_sottocartina
+###adv_sotto_navigatore
 
 ! site-specific blocking rules
+||3bmeteo.com^*/promo/
+||ansa.it^*/banner_
+||oasjs.kataweb.it^
 
 ! site-specific popup blocking rules
 
 ! site-specific element hiding rules
+3bmeteo.com###sole24_banner
+3bmeteo.com##.gpt_top
+advertiser.it,agi.it,agichina24.it,airdave.it,alessandrianews.it,america24.com,casateonline.it,chiamarsibomber.com,corrieredelgiorno.com,corrieremercantile.it,cronachemaceratesi.it,cuneocronaca.it,dagospia.com,diretta.it,euroregionalpmed.eu,finanzaonline.com,foodweb.it,gazzettadiavellino.it,gazzettadinapoli.it,gazzettadisalerno.it,gazzettahockey.it,giochidicalcio.com,globalist.it,gossip.it,greenstyle.it,html.it,ilcambiamento.it,ilfriuli.it,ilgarantista.it,ilgiornale.it,insegreto.it,ivid.it,lindro.it,lipari.biz,macitynet.it,merateonline.it,meteoweb.eu,oggitreviso.it,orangedropdesign.com,orizzontescuola.it,orvietosi.it,pmi.it,programmitv.com,projectcars.it,pubblicitaitalia.it,quattroruote.it,quibrianza.it,quotidianocanavese.it,r101.it,rcdc.it,rockit.it,secoloditalia.it,softonic.it,strettoweb.com,teatronaturale.it,telejato.it,telenord.it,tenews.it,tg24.info,ticinolibero.ch,traniviva.it,ultimouomo.com,varesenews.it,vocenuova.tv##.banner
+bordighera.net,corriere.it,italianhack.org,mailexpress.it,spaziogames.it###ads
+diretta.it###box-over-content-a
+gazzetta.it##a[href*="/codici-sconto/"]
+ilmessaggero.it,leggo.it##.strip-omnia
 
 ! third-party blocking rules
+||immobiliare.it/widget/$third-party
 
 ! third-party popup blocking rules
 
 ! blocking exception rules
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=agi.it|auto.it|corrieredellosport.it|guerinsportivo.it|inmoto.it|liveksoft.tv|movieplayer.it|multiplayer.it|radiofreccia.it|radiozeta.it|tuttosport.com|video.repubblica.it|vvvvid.it
+@@||oasjs.kataweb.it/adsetup.$domain=video.huffingtonpost.it|video.repubblica.it
 
 ! dimension blocking exception rules
 

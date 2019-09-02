@@ -3,6 +3,7 @@
 ! adserver popup rules
 
 ! generic blocking rules
+||resources.fortvision.com/staticfiles
 
 ! generic dimension blocking rules
 
@@ -11,19 +12,49 @@
 ! generic element hiding rules
 
 ! site-specific blocking rules
+||activetrail.com^$third-party,domain=mako.co.il
+||browsiprod.com^$script,xmlhttprequest,domain=walla.co.il
+||browsiprod.com^$script,xmlhttprequest,domain=ynet.co.il
+||firebaseio.com^$third-party,domain=walla.co.il
+||images.haarets.co.il/image/upload/w_227,h_112,c_crop/q_auto,h_98,w_227,c_fill,f_auto/fl_lossy.any_format.preserve_transparency.progressive:none/v1548162519/1.6867261.518501105.jpg
+||walla.co.il^$csp=script-src 'self' * blob: data: 'unsafe-inline',domain=animals.walla.co.il|b.walla.co.il|buzzit.walla.co.il|cars.walla.co.il|celebs.walla.co.il|e.walla.co.il|elections.walla.co.il|fashion.walla.co.il|finance.walla.co.il|food.walla.co.il|healthy.walla.co.il|home.walla.co.il|judaism.walla.co.il|mag.walla.co.il|movies.walla.co.il|nadlan.walla.co.il|news.walla.co.il|sports.walla.co.il|tags.walla.co.il|tech.walla.co.il|travel.walla.co.il|tv-guide.walla.co.il|viva.walla.co.il|vod.walla.co.il|weather.walla.co.il|www.walla.co.il
+||walla.yad2.co.il/*banner$subdocument,domain=walla.co.il
 
 ! site-specific popup blocking rules
 
 ! site-specific element hiding rules
+globes.co.il##.sekindo
+haaretz.co.il,mouse.co.il,themarker.com##a[href*="://rmkz.themarker.com/"]
+haaretz.co.il,themarker.com##a[href*="gampad/clk"]
+haaretz.co.il,themarker.com##div[class*="banner"]
+infomed.co.il,mako.co.il,pcmagazine.co.il,rest.co.il##.ad
+m.sport5.co.il##.ad
+mako.co.il##[href^="https://adclick.g.doubleclick.net/"]
+walla.co.il##.ads-spaces-shdera-hp
+walla.co.il##.no-title.shatapim.sequence
+walla.co.il##.vertical-232.tld.type-2.vertical-editable.common-hp-articles.sequence
+walla.co.il##div[class^="ads-spaces"]
+zap.co.il##.BannerBox
 
 ! third-party blocking rules
+||ads.one.co.il^
 
 ! third-party popup blocking rules
 
 ! blocking exception rules
+@@/dfp/*$script,xmlhttprequest,domain=haaretz.co.il|mouse.co.il|themarker.com
+@@||mako.co.il/js/dfp/dfp.js$script,domain=mako.co.il
+@@||one.co.il^$xmlhttprequest
+@@||pubads.g.doubleclick.net/gampad/adx?iu=$domain=mako.co.il
+@@||rcs.mako.co.il/js/ads.js$script,xmlhttprequest
+@@||sport5.co.il^*/dfp.$script,~third-party
 
 ! dimension blocking exception rules
 
 ! element hiding exception rules
+@@||haaretz.co.il^$generichide
+@@||sport5.co.il^$generichide
+haaretz.co.il#@#div[class*="Banner"]
+one.co.il#@#a[href^="http://xads.zedo.com/"]
 
 ! popup blocking exception rules

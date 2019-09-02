@@ -15,12 +15,17 @@
 ! site-specific popup blocking rules
 
 ! site-specific element hiding rules
+delfi.lv##div[class*="city24-topBlock-wrapper"]
+delfi.lv##div[class="container bg-white d-block d-md-none"]
+delfi.lv##section[class*="container"][id*="-wdiget"]
+delfi.lv##section[class*="container"][id="custom-ads-block-5"]
 
 ! third-party blocking rules
 
 ! third-party popup blocking rules
 
 ! blocking exception rules
+@@/modules/ads/*$domain=seb.lt|seb.lv
 
 ! dimension blocking exception rules
 

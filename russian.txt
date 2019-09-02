@@ -13,6 +13,13 @@
 ! site-specific blocking rules
 
 ! site-specific popup blocking rules
+||alibaba-service.ru^$third-party,popup
+||mazda-varshavka.ru^$third-party,popup
+||pszh.ru^$third-party,popup
+||tlg.name/lentadnya^$third-party,popup
+||traffim.com^$popup,third-party
+||sok.media^$third-party,popup
+||wisokykulas.bid^$popup,third-party
 
 ! site-specific element hiding rules
 

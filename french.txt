@@ -15,6 +15,7 @@
 ! site-specific popup blocking rules
 
 ! site-specific element hiding rules
+lemonde.fr,leparisien.fr###outbrain_widget_0
 
 ! third-party blocking rules
 

@@ -9,12 +9,17 @@
 ! generic popup blocking rules
 
 ! generic element hiding rules
+##.des-adv
+##.envoltorio_publi
+##.patrocinio
 
 ! site-specific blocking rules
 
 ! site-specific popup blocking rules
 
 ! site-specific element hiding rules
+animekb.com,carasycaretas.org.ar,ciclismoafondo.es,diario.mx,dinero.com,elrellano.com,eltribuno.info,expansion.com,gonzoo.com,iahorro.com,laizquierdadiario.com,latercera.com,lne.es,motociclismo.es,mountainbike.es,okdiario.com,publico.es,semana.com##.publicidad
+as.com##.publi
 
 ! third-party blocking rules
 
@@ -25,5 +30,7 @@
 ! dimension blocking exception rules
 
 ! element hiding exception rules
+@@||elmundo.es^$generichide
+@@||marca.com^$generichide
 
 ! popup blocking exception rules

@@ -1,26 +1,101 @@
 ! adservers
+||mysmokingmistress.com^$third-party
 
 ! adserver popup rules
 
 ! generic blocking rules
+/hwcdn.net^$media
+/owa.NativeAdList.js$script
 
 ! generic dimension blocking rules
 
 ! generic popup blocking rules
 
 ! generic element hiding rules
+##.amzn-native-container
+##.commercial-unit-mobile-top div[data-hveid="CAkQBA"]
+##.featuredJobsAdSlot
+##.mobile_instream_ad_resizable
+##.mobileweb_top_ad_container
+##.productad
+##.serviceTop-recommend-ad
+##.sponsoredJob
+###anchorads
 
 ! site-specific blocking rules
+||txxx.com/saber/
+||tubev.sex^*/nblock/
+||ashemaletube.com/ast/b_
 
 ! site-specific popup blocking rules
+||uflash.tv^$popup,domain=heavy-r.com
 
 ! site-specific element hiding rules
+allrecipes.com##.karma-slot--square-container
+ashemaletube.com##.adblock
+bang.com##a[href^="https://dat.itsup.com/"]
+bbc.com##.MPU
+beeg.com##.section.s-nmtv
+bestbuy.com##.shop-google-adsense
+cargurus.com#?#.T6DW7n:-abp-has(p:-abp-contains(Advertisements))
+deviantart.com##.ad-container
+ebay.co.uk#?#.s-item:-abp-has(span:-abp-contains(SPONSORED))
+ebay.com.au#?#li.s-item:-abp-has(span:-abp-contains(SPONSORED))
+extremetube.com##.topAdtext
+gamepedia.com##.ad-container
+gamepedia.com##.xt-placement
+gamespot.com##.trc_elastic_alternating-thumbnails-a 
+gfycat.com##.floating-container
+haberturk.com##.widget-masthead
+hclips.com##.rek-link
+hclips.com###hda-m
+indoxx1.stream###home-bnner-content
+ipcorner.io##.bannerdiv
+kakaku.com##.topSpotArea
+mobile.de##.adsense-slot-wrapper
+onedio.com###sponsored
+porn.com##.m-zne8
+porndroids.com##.aan
+sleazyneasy.com##.bottom-banners
+sleazyneasy.com##.top-spot
+sleazyneasy.com###pop-fade
+tribunnews.com##.anchor_banner
+tube8.com##.js-mobile-top-banner
+tubev.sex##.alc
+txxx.com##.mobile-channel-info
+txxx.com##.rek-wrap
+txxx.com###interstitial
+txxx.com###ud-m
+uol.com.br##.bannersticky-base
+uol.com.br##.bannersticky-top-container
+vg.no##.ad
+vg.no##.finn-placeholder
+youjizz.com##.bottom_pr
+youjizz.com##.top_pr
 
 ! third-party blocking rules
+||ad.adpon.jp^$third-party
+||wpnjs.com/pn.php
 
 ! third-party popup blocking rules
+||adultd8.com^$popup,third-party
+||aranelsingollo.com^$popup,third-party
+||date-4-fuck.com^$popup,third-party
+||gadispelakor.com^$popup,image,third-party
+||jandamanja.com^$popup,image,third-party
+||libertystmedia.com^$popup,third-party
+||mobswift.com^$popup,third-party
+||noclef.com^$popup,third-party
+||onewaywin.com^$popup,image,third-party
+||pemburujanda.net^$popup,image,third-party
+||swiftfling.com^$popup,third-party
+||trkgenius.com^$popup,image,third-party
+||wrison-subustall.com^$popup,third-party
+||wysasys.com^$popup,image,third-party
+||xxx.game^$popup,third-party
 
 ! blocking exception rules
+@@/prebid_twn/modernizr_custom/*$domain=theweathernetwork.com
 
 ! dimension blocking exception rules
 

@@ -3,12 +3,17 @@
 ! adserver popup rules
 
 ! generic blocking rules
+##.pub_300x250
 
 ! generic dimension blocking rules
 
 ! generic popup blocking rules
 
 ! generic element hiding rules
+clicrbs.com.br,otvfoco.com.br##.ob-p
+olx.com.br###module_olx_shopping
+olx.com.br##.module_advertising
+terra.com.br,uol.com.br##.advertising
 
 ! site-specific blocking rules
 

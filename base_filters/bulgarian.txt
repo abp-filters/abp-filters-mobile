@@ -11,6 +11,8 @@
 ! generic element hiding rules
 
 ! site-specific blocking rules
+||bg.search.etargetnet.com/generic/
+||vbox7.com/adwise/
 
 ! site-specific popup blocking rules
 

@@ -11,10 +11,26 @@
 ! generic element hiding rules
 
 ! site-specific blocking rules
+||skelbiu-static.dgn.lt/static/images/banner
+||tv3.lt/Uploads/image/pwr.jpg
 
 ! site-specific popup blocking rules
 
 ! site-specific element hiding rules
+15min.lt##.content-ad.ads-cnt
+15min.lt##.widget.ads
+15min.lt##a[href^="https://bit.ly"]
+15min.lt##div[id*="google_ads_iframe_"]
+15min.lt##iframe[id*="google_ads_iframe_"]
+autogidas.lt##a[href*="banner"]
+bigbenas.com,cs-servers.lt,delfi.lt,racas.lt,rinkaplius.lt,strazdaneles.lt,pasikeisk.lt,priekavos.lt,1588.lt,sodobaldai.lt,ekopasaulis.com,ekopirk.lt,zaislaivaikams.lt,kcci.lt,mystore.lt##.banner
+delfi.lt##.revolut-juosta
+skelbiu.lt###banner-three-in-one-between-items
+skelbiu.lt###list-middle-zone
+skelbiu.lt###top-item-zone
+skelbiu.lt##iframe[src*="skelbiu-static.dgn.lt/static/5/banner/"]
+tv3.lt##[onclick="ga('send', 'event', 'Anonsai', 'Click', 'Svarbiausia blokelio paspaudimas');"] *
+vz.lt##.cvWrSidebar
 
 ! third-party blocking rules
 
@@ -23,7 +39,17 @@
 ! blocking exception rules
 
 ! dimension blocking exception rules
+@@||15min.lt/*ads
+@@||am15.net$domain=filmux.org
+@@||entitlements.jwplayer.com/*.json
+@@||googlesyndication.com/pagead/$third-party
+@@||lib.lrytas.lt/js/cx/EAS_fif.js
+@@||lrytas.lt/eas
+@@||sascdn.com^$third-party,domain=vz.lt
+@@||securepubads.g.doubleclick.net^$domain=15min.lt
 
 ! element hiding exception rules
+@@||15min.lt^$generichide
+@@||delfi.lt^$generichide
 
 ! popup blocking exception rules

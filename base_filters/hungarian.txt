@@ -15,8 +15,11 @@
 ! site-specific popup blocking rules
 
 ! site-specific element hiding rules
+m.yna.co.kr##div[id^="mobonDivBanner"]
+m.yna.co.kr##section[class^="section-ad"]
 
 ! third-party blocking rules
+||api.popin.cc/$script,third-party
 
 ! third-party popup blocking rules
 

@@ -1,4 +1,5 @@
 ! adservers
+||adbox.lv^$third-party
 
 ! adserver popup rules
 
@@ -11,16 +12,35 @@
 ! generic element hiding rules
 
 ! site-specific blocking rules
+||b.itvnet.lv^
+||reklama.lv/promotion/
+||tvnet.lv/export_news/$third-party
 
 ! site-specific popup blocking rules
 
 ! site-specific element hiding rules
+delfi.lv##.city24-topBlock-extraLine
+delfi.lv##.city24-topBlock-wrapper
+delfi.lv##.d-sm-block
+jauns.lv##.ad-dfp
+jauns.lv##.meta-info__subscribe
+jauns.lv##.shop-list
+lsm.lv##.adbox
+salidzini.lv###AM_bottom
+salidzini.lv###AM_giga
+salidzini.lv###AM_mobile_1
+salidzini.lv###AM_scroll_row
+salidzini.lv###AM_tower_div
+salidzini.lv##[id^="media_place"]
 
 ! third-party blocking rules
+||city24.lv/ibox/$third-party
 
 ! third-party popup blocking rules
 
 ! blocking exception rules
+@@||b.adbox.lv/bxlib/js/loader.js?$script,domain=lsm.lv
+@@||ltv.lsm.lv/scripts/ads.js$script
 
 ! dimension blocking exception rules
 

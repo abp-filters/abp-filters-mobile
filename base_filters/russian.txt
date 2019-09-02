@@ -1,29 +1,86 @@
 ! adservers
+||1dmp.io^$third-party
+||3wnp9.ru^$third-party
+||adblender.ru^$third-party
+||cszz.ru^
+||datamind.ru^$third-party
+||digitaltarget.ru^$third-party
+||drivenetwork.ru^$third-party
+||franecki.net^$third-party
+||lentainform.com^$third-party
+||mediametrics.ru^$third-party
+||news.mirtesen.ru^$third-party
+||nnn.ru^$third-party
+||otm-r.com^$third-party
+||recreativ.ru^
+||rutarget.ru^$third-party
+||smi2.ru^$third-party
+||upravel.com^$third-party
+||videonow.ru^$third-party
 
 ! adserver popup rules
 
 ! generic blocking rules
+.directadvert.ru^$third-party
+//jsn.$third-party,script
 
 ! generic dimension blocking rules
 
 ! generic popup blocking rules
 
 ! generic element hiding rules
+##.directadvert-block
+##div[class^="da-widget-"]
+##div[class^="da-ya-widget"]
+~directadvert.ru##a[href*="direct"][href*="advert.ru"]
 
 ! site-specific blocking rules
+||criteo.net^$domain=avito.ru
+||taboola.com^$domain=avito.ru
 
 ! site-specific popup blocking rules
 
 ! site-specific element hiding rules
+19rus.info,2018.pp.ua,20minut.ua,2goroda.ru,365info.kz,3ys.ru,advis.ru,agronews.ua,agrotimes.net,autodmir.ru,avtodispetcher.ru,bakemono.ru,bel.ru,besplatka.ua,bestfm.ru,cbonds.ru,comments.ua,con-med.ru,cybersport.ru,dni.ru,echosevera.ru,epravda.com.ua,filmz.ru,flamp.ru,forklog.com,forum-profit.ru,gameguru.ru,gorodvitebsk.by,gp.by,haqqin.az,infpol.ru,investfunds.ru,ircity.ru,islam-today.ru,ivanovonews.ru,iz.ru,joborgame.ru,jut.su,k1news.ru,kafa-info.com.ua,kinozz.film,klavogonki.ru,knijky.ru,kt.kz,kursktv.ru,laradiofm.ru,locals.md,medialeaks.ru,megatyumen.ru,menportal.info,mixnews.lv,neboleem.net,nmedic.info,nv-online.info,obozrevatel.com,point.md,polochka.net,povarenok.ru,ppt4web.ru,pravda.com.ua,pravoved.ru,primemusic.cc,profibeer.ru,prostatitanet.com,redfm.ru,smolensk-i.ru,sovsport.ru,spanishrestaurant.ru,sportguide.kiev.ua,start33.ru,syzran-small.ru,the-flow.ru,thequestion.ru,tveda.ru,twentysix.ru,vashurok.ru,veterinargid.ru,vinnitsa.info,vklasse.online,vovka.su,vringe.com,vshkole.com,wowjp.net,xsport.ua,yvision.kz,zagorod.spb.ru,zaim-profi.ru,zaryad.me,zebra-tv.ru,zoohoz.ru##div[class*="banner"]
+dni.ru##.right.article-reklame > * > :not(.block_all_day) > *
+dni.ru##[class*="container"][class*="partner"]
+dni.ru#?##for_fix > *:-abp-has(.titlebar > span:-abp-contains(Ð¿Ð°Ñ€Ñ‚Ð½ÐµÑ€Ñ‹))
+drom.ru,newsvl.ru,vl.ru##div[id*="candy"]
+iz.ru##.yandexzen
+lenta.ru##div[id^="rnet_lenta"][id*="tizera"]
+pikabu.ru#?#.story:-abp-has([class*="sponsor"])
+pikabu.ru#?#.story:-abp-has([id^="crt-"])
+vesti.ru##:not(.vgtrk-a1-list_inner) > .vgtrk-a1
+vesti.ru#?#.vgtrk-a1:-abp-has([id^="adfox_"])
 
 ! third-party blocking rules
+||an.yandex.ru^$domain=~e.mail.ru
+||ad.mail.ru^$domain=~e.mail.ru|~octavius.mail.ru|~otvet.mail.ru
+||awaps.yandex.
+||b.itvnet.lv^
+||bs.yandex.$script
+||tvnet.lv/export_news/$third-party
+||reklama.lv/promotion/
+||ssp.rambler.ru^$domain=~ssp.rambler.ru
+||static-mon.yandex.net/static/main.js
+||st.astraone.io^$third-party
+||yandex.net/get-direct$domain=~direct.yandex.by|~direct.yandex.com|~direct.yandex.com.tr|~direct.yandex.fr|~direct.yandex.kz|~direct.yandex.ru|~direct.yandex.ua|~e.mail.ru
+||yastatic.net/daas/
+||zen.yandex.*/widget-loader|$third-party
 
 ! third-party popup blocking rules
+||lentainform.com/pnews/$third-party,popup
 
 ! blocking exception rules
+@@||awaps.yandex.$domain=kinopoisk.ru|market.yandex.by|market.yandex.kz|market.yandex.ru|market.yandex.ua
+@@||beeline.ru/ban/$domain=beeline.ru
+@@||vesti.ru/i/adv.png|$image
+@@||yastatic.net/pcode/adfox/loader.js$domain=101.ru|ficbook.net|forbes.ru|karaoke.ru|matchtv.ru|maxpark.com|newsland.com|shop.kp.ru|the-challenger.ru|vc.ru
 
 ! dimension blocking exception rules
 
 ! element hiding exception rules
+@@://yandex.ru/|$generichide
+livelib.ru,mail.ru,quantrum.me,revelationonlinedb.ru,seetv.tv,soccer365-1.xyz,soccer365.ru,track24.ru,vg672plpaer.ru#@#.ad_text
 
 ! popup blocking exception rules

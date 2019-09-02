@@ -1,16 +1,23 @@
 ! adservers
+||postquare.com^$third-party
 
 ! adserver popup rules
 
 ! generic blocking rules
+/projectagora.min.js
 
 ! generic dimension blocking rules
 
 ! generic popup blocking rules
 
 ! generic element hiding rules
+##div[id^="POSTQUARE_WIDGET"]
 
 ! site-specific blocking rules
+|http://$script,stylesheet,third-party,xmlhttprequest,domain=cimaclub.com
+|https://$script,stylesheet,third-party,domain=33sk.tv|3sk.co|3sk.io
+|https://$script,stylesheet,third-party,xmlhttprequest,domain=cimaclub.com
+||panet.co.il/online/images/links_blocks/
 
 ! site-specific popup blocking rules
 

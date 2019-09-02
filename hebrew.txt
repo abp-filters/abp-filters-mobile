@@ -15,6 +15,9 @@
 ! site-specific popup blocking rules
 
 ! site-specific element hiding rules
+sport5.co.il##.videoArticle-carousel-holder-webParam
+walla.co.il##.fc.slot-buzzit
+zap.co.il##.FundedAds
 
 ! third-party blocking rules
 

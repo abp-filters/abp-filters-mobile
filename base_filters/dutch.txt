@@ -15,6 +15,10 @@
 ! site-specific popup blocking rules
 
 ! site-specific element hiding rules
+marktplaats.nl###top-banner-wrapper div[id^="banner-"]
+marktplaats.nl##.search-result.bottom-listing
+nos.nl##.ster-banner
+nu.nl##a[href*="/advertorial-"]
 
 ! third-party blocking rules
 

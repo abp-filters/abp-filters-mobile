@@ -1,29 +1,76 @@
 ! adservers
+||adsearch.pl^$third-party
+||dmxleo.dailymotion.com^
+||dunfermlinemulkeytown.com^
+||franecki.net^$third-party
+||goutee.top^$third-party
+||mediaathay.org.uk^$third-party
+||nr-data.net^$third-party
+||nuggad.net^$third-party
+||projectagoratech.com^$third-party
+||pubstack.io^$third-party
+||seedtag.com^$third-party
+||videostep.com^$third-party
+||zebestof.com^$third-party
 
 ! adserver popup rules
 
 ! generic blocking rules
+.fr/ads/
+.gif?partner=
+/adscores/*
+/autopromo.*/async|
+/detect-acceptable/*
+/get_links_*&zone=
 
 ! generic dimension blocking rules
 
 ! generic popup blocking rules
 
 ! generic element hiding rules
+###pub_banniere_basse
+###pub_banniere_haute
+###pub_interstitiel
+##.ads-core-placer
+##.containerAds
+##.fig-ad
+##.fig-ad-pave
+##.ytp-paid-content-overlay
+##a[href^="https://ad.apps.fm/"]
 
 ! site-specific blocking rules
+/^((?!(^https?):\/\/(([0-9a-z\-\.]+)\.maps\.cit\.api\.here\.com|([a-z\-]+)\.woopic\.com|api\.usabilla\.com|cps\.purpledrm\.com|embed\.playbuzz\.com|mcd\.playbuzz\.com|services\.arcgisonline\.com|static\.arcgis\.com|vodew-mss2\.cdn2\.orange-business\.com|www\.ultimedia\.com)\/).)*$/$third-party,xmlhttprequest,domain=orange.fr
+/autopromo.$domain=750g.com|alibabuy.com|allocine.fr|cap-cine.fr|chartsinfrance.net|cotecine.fr|easyvols.fr|easyvoyage.com|get-the-look.fr|jeuxactu.com|lestream.fr|millenium.org|musiquemag.com|ozap.com|purebreak.com|purepeople.com|puretrend.com|shopoon.fr|terrafemina.com
+||files.meteofrance.com/habillage/
 
 ! site-specific popup blocking rules
 
 ! site-specific element hiding rules
+ados.fr,adsptp.com,afrik-cuisine.com,afrik-foot.com,afrik.com,afrikeco.com,agevillage.com,agoravox.fr,agoravox.tv,annuaire-streaming.com,bhmag.fr,cciaf.org,centerblog.net,cio-online.com,commentreparer.com,construiresamaison.com,cuisineactuelle.fr,dictionnaire-synonymes.com,docteurclic.com,elbotola.com,elheddaf.com,elitepresse.com,ennaharonline.com,europages.ma,fan-de-cinema.com,femmeactuelle.fr,foot01.com,forumsims3.com,franceinfo.fr,franceinter.fr,ici.tou.tv,igen.fr,inovaovao.com,internetparsatellite.net,jeux-mmorpg.com,ktotv.com,lacapitale.be,lacentrale.fr,ladepeche.fr,lameuse.be,lanouvellegazette.be,laprovince.be,larousse.fr,lefigaro.fr,lemonde.fr,lesdebiles.com,lesechos.fr,lesoir.be,lexpress.fr,logicielmac.com,macg.co,mapiaule.com,maximiles.com,meilleurtaux.com,menara.ma,mini-games.fr,montelimar-news.fr,nintendo-master.com,nordeclair.be,orange.fr,orange.mu,ouest-france.fr,over-blog.com,programme.tv,radio-monaco.com,radioclassique.fr,remede.org,sfr.fr,skirandomag.com,slate.fr,sofoot.com,soonnight.com,telemb.be,telequebec.tv,tf1.fr,tsa-algerie.com,turbo.fr,watchgeneration.fr,yabiladi.com,yatahonga.com,zupimages.net##.pub
+credit-agricole.fr##a[href^="https://www.onatousuncotefoot.fr/"]
+lefigaro.fr##.fig-adgps
+lefigaro.fr##.fig-promo-jardin
+lefigaro.fr##a[href^="http://cplussur.lefigaro.fr/"]
+lefigaro.fr##a[href^="http://lefigaro.explorimmo.com/resultat/annonces.html?"]
+lefigaro.fr##a[href^="http://www.ticketac.com/?utm_source="]
+lefigaro.fr##a[href^="https://go.babbel.com/"]
+lemonde.fr##div[data-partner="barnebys"]
+lemonde.fr#?#.area--ops:-abp-has(p:-abp-contains(Contenus partenaires))
+meteofrance.com##.mod-publiinfos
+meteofrance.com##[href*=".xiti.com"] > img
+ouest-france.fr##.partenaire-externe
 
 ! third-party blocking rules
+||facebook.net^*/fbevents.js$third-party
 
 ! third-party popup blocking rules
 
 ! blocking exception rules
+@@||a.f1g.fr/build/2/adsense.js$script
 
 ! dimension blocking exception rules
 
 ! element hiding exception rules
+20minutes.fr#@#.onf-ad
 
 ! popup blocking exception rules

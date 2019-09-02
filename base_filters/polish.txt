@@ -1,4 +1,6 @@
 ! adservers
+||adsearch.pl^$third-party
+||hub.com.pl^$third-party
 
 ! adserver popup rules
 
@@ -9,12 +11,25 @@
 ! generic popup blocking rules
 
 ! generic element hiding rules
+###extraAdsBlock
 
 ! site-specific blocking rules
+||dynacrems.wp.pl^*=dynacrems-adv-
+||rek.www.wp.pl^
 
 ! site-specific popup blocking rules
 
 ! site-specific element hiding rules
+abczdrowie.pl,autokult.pl,echirurgia.pl,fotoblogia.pl,kafeteria.pl,kardiolo.pl,komorkomania.pl,luxlux.pl,medycyna24.pl,money.pl,nerwica.com,open.fm,pinger.pl,pogodnie.pl,pudelek.pl,pudelek.tv,pudelekx.pl,pytamy.pl,samosia.pl,smog.pl,snobka.pl,wp.pl#?#div:-abp-has(> div:-abp-properties(margin-bottom: 2px))
+abczdrowie.pl,autokult.pl,echirurgia.pl,fotoblogia.pl,kafeteria.pl,kardiolo.pl,komorkomania.pl,luxlux.pl,medycyna24.pl,money.pl,nerwica.com,pinger.pl,pogodnie.pl,pudelek.pl,pudelek.tv,pudelekx.pl,pytamy.pl,samosia.pl,smog.pl,snobka.pl##div[style$="display: block;"]>*:not(.modal__body):not(.content):not(.submenu)
+abczdrowie.pl,autokult.pl,snobka.pl,o2.pl,kardiolo.pl,jejswiat.pl,pudelek.tv,money.pl,komorkomania.pl,fotoblogia.pl,pudelek.pl,pudelekx.pl,medycyna24.pl,echirurgia.pl,kafeteria.pl,kciuk.pl,kowbojki.pl,luxlux.pl,nerwica.com,open.fm,planowo.pl,pogodnie.pl,pytamy.pl,smog.pl,pinger.pl,wp.pl,samosia.pl,demoty.pl#?#DIV:-abp-properties(position: relative;) > DIV > IFRAME
+abczdrowie.pl,autokult.pl,snobka.pl,o2.pl,kardiolo.pl,jejswiat.pl,pudelek.tv,money.pl,komorkomania.pl,fotoblogia.pl,pudelek.pl,pudelekx.pl,medycyna24.pl,echirurgia.pl,kafeteria.pl,kciuk.pl,kowbojki.pl,luxlux.pl,nerwica.com,open.fm,planowo.pl,pogodnie.pl,pytamy.pl,smog.pl,pinger.pl,wp.pl,samosia.pl,demoty.pl#?#IMG:-abp-properties(position: relative;)
+filmweb.pl###mainSkyBanner-pl_PL
+filmweb.pl##.ad__billboard-below-header
+filmweb.pl##.ws__wrapper
+filmweb.pl##div[rel="billboard"]
+pomponik.pl#?#LI:-abp-has(> DIV > DIV > A:-abp-contains(SPONSOROWANE))
+wp.pl##.gwcOrs
 
 ! third-party blocking rules
 

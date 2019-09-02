@@ -15,6 +15,12 @@
 ! site-specific popup blocking rules
 
 ! site-specific element hiding rules
+hln.be##.adv__slot
+telegraaf.nl##.ArticleBodyBlocks__inlineArticleSpotXBanner
+telegraaf.nl##.ArticlePageWrapper__banner
+telegraaf.nl##.MainCuratedTeasersLayout__banner
+telegraaf.nl##.SectionPage__bannerWrapper
+telegraaf.nl##.SecondaryCuratedTeasersLayout__bannerWrapper
 
 ! third-party blocking rules
 

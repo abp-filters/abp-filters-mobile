@@ -1,4 +1,5 @@
 ! adservers
+||projectagoratech.com^$third-party
 
 ! adserver popup rules
 
@@ -17,6 +18,10 @@
 ! site-specific element hiding rules
 
 ! third-party blocking rules
+||ado.icorp.ro^$third-party
+||code3.adtlgc.com^$third-party
+||content.adunity.com^$third-party
+||projectagora.s3.amazonaws.com^$third-party
 
 ! third-party popup blocking rules
 

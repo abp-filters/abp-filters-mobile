@@ -1,29 +1,83 @@
 ! adservers
+||ad4mat.de^$third-party
+||nativendo.de^$third-party
+||twiago.com^$third-party
 
 ! adserver popup rules
 
 ! generic blocking rules
+.de/ads/$~xmlhttprequest
+/werbebanner-
 
 ! generic dimension blocking rules
 
 ! generic popup blocking rules
 
 ! generic element hiding rules
+###text-ads-mitte
+##.werbung
 
 ! site-specific blocking rules
+||adnxs.com^$domain=autobild.de|widgets.outbrain.com
+||chefkoch-cdn.de^*/partnerlogos/
+||doubleclick.net^$third-party,domain=augsburger-allgemeine.de|autobild.de|bild.de|buffed.de|bundesliga.de|cnet.de|computerbild.de|dashausanubis.de|de.msn.com|dooloop.tv|eyep.tv|filmjunkies.de|flashgames.de|focus.de|gameone.de|gamepro.de|gamesaktuell.de|gamestar.de|gameswelt.at|gameswelt.ch|gameswelt.de|gameswelt.tv|gamezone.de|gzsz.rtl.de|hatenight.com|homerj.de|icarly.de|kino.de|kochbar.de|laola1.tv|lustich.de|motorvision.de|myvideo.at|myvideo.ch|myvideo.de|n-tv.de|onlinewelten.com|pcgames.de|pcgameshardware.de|pcwelt.de|radio.de|ran.de|rtlregional.de|southpark.de|spiegel.tv|spiele-zone.de|spongebob.de|sport.de|spox.com|spreeradio.de|t-online.de|teleboerse.de|the-hills.tv|trailerseite.de|tvmovie.de|video.de|videogameszone.de|vip.de|vodafonelive.de|vox.de|welt.de|wetter.de|wetterschnecken.de|wikifit.de|www.rtl2.de|zdnet.de
+||kinoprogramm.bild.de^
 
 ! site-specific popup blocking rules
 
 ! site-specific element hiding rules
+1und1.de,gmx.net,web.de##ela-bing-card-list[c-type="'ad'"]
+aachener-nachrichten.de,abendblatt.de,ak-kurier.de,alle-immobilien.ch,azonline.de,bazonline.ch,bernerzeitung.ch,bildderfrau.de,billig-flieger-vergleich.de,bos-fahrzeuge.info,computerbase.de,crn.de,derbund.ch,derlacher.de,echo-online.de,epochtimes.de,erf.de,fail.to,fettspielen.de,funnypizza.de,glamour.de,gmx.net,gq-magazin.de,hardwareclips.com,holidaycheck.de,inside-handy.de,ircgalerie.net,kalenderwoche.net,kino24.to,klassikradio.de,kronehit.at,macwelt.de,metager.de,modhoster.de,newscomm.de,nordbayerischer-kurier.de,oberhessische-zeitung.de,pcwelt.de,pfaffenhofen-today.de,phonostar.de,podcast.de,prisma.de,radiokoeln.de,raidrush.org,rhein-neckar-loewen.de,sachsen-fernsehen.de,shopbetreiber-blog.de,spektrum.de,sueddeutsche.de,suite101.de,tagesanzeiger.ch,wallstreet-online.de,web.de,wissen.de,wn.de,yellingnews.com,zeit.de##.ad
+amazon.de###heroQuickPromo_feature_div
+annos.de,chefkoch.de,dasoertliche.de,dastelefonbuch.de###banner-top
+bild.de##a[href*=".smartadserver.com/"]
+bild.de##a[href*="/partner/"]
+chefkoch.de###partnerlogos-bottom
+chefkoch.de##.s24_widget
+chip.de##.List > li > .copy-sm > .secondary[rel="nofollow"]
+chip.de##a[href^="https://www.amazon.de/"][href*="&tag="]
+computerbild.de,erdbeerlounge.de,fitbook.de,giga.de,metal-hammer.de,musikexpress.de,noizz.de,rollingstone.de,spieletipps.de,sportbild.bild.de,stylebook.de,techbook.de,transfermarkt.de,travelbook.de,welt.de##.trc_related_container div[data-item-syndicated="true"]
+ebay.de##.vi-lb-placeholder
+ebay.de#?#.s-item:-abp-has(span:-abp-contains(ANZEIGE))
+gmx.net,home.1und1.de,rtl-west.de,rtlnord.de,web.de##.medrec
+immobilienscout24.de##.banner-top-placeholder
+mobile.de,viva.tv##.adv
+suche.1und1.de,suche.gmx.net,suche.web.de##COMPONENTS-SHOPPING-ONEBOX-LIST.l-display-block
+t-online.de###ma_ar
+t-online.de###ma_ar_2
+t-online.de###ma_mrec
+t-online.de##.Tadc
+t-online.de##.Tgbox--anz
+t-online.de##a[href^="https://count.shopping.t-online.de/RE?ID="]
+t-online.de##div[data-dy*="Partner:"]
+t-online.de,trax.de##a[href^="http://count.shopping.t-online.de/RE?ID="]
 
 ! third-party blocking rules
+||ad.71i.de^
 
 ! third-party popup blocking rules
 
 ! blocking exception rules
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=chip.de|event.mivitec.net|musikexpress.de|radio.de|rollingstone.de|welect.de
 
 ! dimension blocking exception rules
 
 ! element hiding exception rules
+@@||computerbild.de^$generichide
+@@||fitbook.de^$generichide
+@@||focus.de^$generichide
+@@||metal-hammer.de^$generichide
+@@||noizz.de^$generichide
+@@||stylebook.de^$generichide
+@@||techbook.de^$generichide
+@@||travelbook.de^$generichide
+@@||welt.de^$generichide
+1und1.de,gmx.at,gmx.net,typischich.at,web.de#@#.advertorial
+computerbild.de,wieistmeineip.at,wieistmeineip.ch,wieistmeineip.de#@#.trc-content-sponsored
+computerbild.de,wieistmeineip.at,wieistmeineip.ch,wieistmeineip.de#@#.trc_related_container div[data-item-syndicated="true"]
+rtl.de#@#.adslot
+wieistmeineip.at,wieistmeineip.ch,wieistmeineip.de#@#.trc_rbox .syndicatedItem
+wieistmeineip.at,wieistmeineip.ch,wieistmeineip.de#@#.trc_rbox_border_elm .syndicatedItem
+wieistmeineip.at,wieistmeineip.ch,wieistmeineip.de#@#.trc_rbox_div .syndicatedItem
 
 ! popup blocking exception rules

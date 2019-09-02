@@ -9,12 +9,14 @@
 ! generic popup blocking rules
 
 ! generic element hiding rules
+##.ad-background-image
 
 ! site-specific blocking rules
 
 ! site-specific popup blocking rules
 
 ! site-specific element hiding rules
+mercadolibre.com.ar,mercadolibre.com.mx#?#li.item:-abp-has(span:-abp-contains( Promocionado ))
 
 ! third-party blocking rules
 

@@ -15,6 +15,9 @@
 ! site-specific popup blocking rules
 
 ! site-specific element hiding rules
+idnes.cz###branding
+idnes.cz###r-shp480
+prozeny.cz##div[class$="advert-rectangle"]
 
 ! third-party blocking rules
 

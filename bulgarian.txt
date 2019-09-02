@@ -15,6 +15,13 @@
 ! site-specific popup blocking rules
 
 ! site-specific element hiding rules
+alo.bg##div[class^="adv_"]
+alo.bg##div[id^="adv_"]
+alo.bg##div[style="position:relative;width:100%;height:282px;overflow: hidden;margin:5px 0px;"]
+alo.bg##.wrap300
+bg-mamma.com##.sponsored-topic
+vbox7.com##.banner
+vbox7.com##.bannerShow
 
 ! third-party blocking rules
 

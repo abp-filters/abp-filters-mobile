@@ -9,21 +9,95 @@
 ! generic popup blocking rules
 
 ! generic element hiding rules
+##.adsense-slot-wrapper
+##.AdSticky
+##.contentad-sticky-1
+##.thirdPartySponsorLink
+###anchor-ad
 
 ! site-specific blocking rules
+||ad.doubleclick.net^$domain=spiegel.de
+||adalliance.io^$domain=spiegel.de
+||emsservice.de^$domain=spiegel.de
+||googleads.g.doubleclick.net/pagead/ads?$subdocument,domain=vip.de
+||tpc.googlesyndication.com/daca_images/simgad^$image,domain=vip.de
+||yieldlab.net^$domain=spiegel.de
 
 ! site-specific popup blocking rules
 
 ! site-specific element hiding rules
+amazon.de###ape_detail_btf_detail-mWeb_wrapper
+amazon.de###ape_detail_btf2_mweb_wrapper
+amazon.de###ape_detail_btf2_mweb_text-wrapper
+amazon.de###ape_detail_btf_detail-mWeb_text-wrapper
+amazon.de###pdagMwebSparkle
+bento.de##.emsAnzeige
+bento.de##.emsAnzeige + [id^="google_ads_iframe_"]
+bento.de##.ob-p
+bz-berlin.de##.tbl-logo-right-position > .tbl-feed-header-text
+focus.de##.OUTBRAIN .ob-p
+gofeminin.de##.af-banner
+t-online.de###adcontainer1
+t-online.de###adcontainer2
+gmx.net,web.de##.adc-top
+sportbild.bild.de##div[data-skinning="tr-textlink"]
+stern.de#?#.emsTeaserContainer:-abp-contains(Anzeige)
+tz.de##div[data-id-advertdfpconf]
+vip.de##[id^="guj_ems_iframe_"]
+vip.de##iframe[id^="google_ads_iframe_"]:not([width="300"])
+vip.de##iframe[src*="googleads.g.doubleclick.net/pagead/ads?"]
+welt.de##[data-tb-owning-region-name="sponsored"]
+wetter.de##div[class^="admanager__ems__mobile-"]
+widgets.outbrain.com##div[data-src^="https://m.spiegel.de/"] .ob-p
 
 ! third-party blocking rules
 
 ! third-party popup blocking rules
 
 ! blocking exception rules
+@@/gujAd.$domain=kochbar.de|stern.de|vip.de|wetter.de
+@@||adservice.google.*^adsid/integrator.$script,domain=vip.de
+@@||asadcdn.com/adlib^$domain=welt.de
+@@||bento.de/images/ad-time/$image,domain=bento.de
+@@||bf-ad.net/adengine/$script,domain=tvspielfilm.de
+@@||c.amazon-adsystem.com/aax2/apstag.js|$script,domain=transfermarkt.de
+@@||cdn.static-fra.de/ip/js/adcontrol/adcontrol.min.js|$domain=sport.de
+@@||ced.sascdn.com/tag/2161/smart.js$domain=metal-hammer.de|rollingstone.de
+@@||content.ikiosk.de^$domain=ikiosk.de
+@@||emsservice.de/data/$script,domain=bento.de
+@@||emsservice.de^$image,xmlhttprequest,domain=kochbar.de
+@@||g.doubleclick.net/gampad/$script,xmlhttprequest,domain=kochbar.de|stern.de
+@@||g.doubleclick.net/gampad/$xmlhttprequest,domain=bento.de|vip.de
+@@||g.doubleclick.net/gpt/$script,domain=bento.de|kochbar.de|stern.de|vip.de
+@@||g.doubleclick.net/pcs/click?$image,popup,domain=vip.de|kochbar.de|stern.de|wetter.de
+@@||googletagservices.com/tag/js/gpt.js|$script,domain=gofeminin.de
+@@||handelsblatt.com^$generichide
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js|$script,domain=transfermarkt.de
+@@||ligatus.com/?ids=$script,domain=wetter.de
+@@||native.emsservice.de^$image,xmlhttprequest,domain=stern.de
+@@||securepubads.g.doubleclick.net^$script,domain=gofeminin.de
+@@||showheroes.com/prebid.$script,domain=metal-hammer.de|rollingstone.de
+@@||smartadserver.com/2161/call^$xmlhttprequest,domain=metal-hammer.de|rollingstone.de
+@@||sueddeutsche.de^$generichide
+@@||tpc.googlesyndication.com/pagead/imgad?$image,domain=wetter.de
 
 ! dimension blocking exception rules
 
 ! element hiding exception rules
+autobild.de,bz-berlin.de#@#.banner_ad
+autobild.de,bz-berlin.de#@#.sponsored_ad
+autobild.de#@#.trc-first-recommendation
+autobild.de#@#.trc-spotlight-first-recommendation
+autobild.de,sportbild.bild.de#@#.trc_spotlight_item
+gofeminin.de,kochbar.de#@#a[href^="https://adclick.g.doubleclick.net/"]
+gofeminin.de#@#div[id^="div-gpt-ad"]
+kochbar.de,stern.de,vip.de,wetter.de#@#.gujAd
+stern.de#@#.ad-tag
+sueddeutsche.de#@#.ad
+vip.de,wetter.de#@#div[id^="google_ads_iframe_"]
+vip.de,wetter.de#@#iframe[id^="google_ads_iframe"]
+welt.de#@#.trc_related_container div[data-item-syndicated="true"]
+@@||auto-motor-und-sport.de^$generichide
+@@||bento.de^$generichide
 
 ! popup blocking exception rules

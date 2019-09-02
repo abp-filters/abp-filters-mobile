@@ -9,6 +9,9 @@
 ! generic popup blocking rules
 
 ! generic element hiding rules
+dable.io##td[data-ad_id^="ad_"]
+grid.id###div-Inside-MediumRectangle
+kaskus.co.id###my-ad-slot
 
 ! site-specific blocking rules
 

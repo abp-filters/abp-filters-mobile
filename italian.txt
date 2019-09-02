@@ -15,10 +15,13 @@
 ! site-specific popup blocking rules
 
 ! site-specific element hiding rules
+ilgiornale.it###ilg_banner_mobile_crowdfunding
 
 ! third-party blocking rules
 
 ! third-party popup blocking rules
+||quifinanza.it^$popup,third-party
+||virgilio.it^$popup,third-party
 
 ! blocking exception rules
 

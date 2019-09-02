@@ -1,4 +1,6 @@
 ! adservers
+||accesstrade.co.id^$third-party
+||advertnative.com^$third-party
 
 ! adserver popup rules
 
@@ -9,12 +11,15 @@
 ! generic popup blocking rules
 
 ! generic element hiding rules
+##.ads__side
 
 ! site-specific blocking rules
+||adsimg.kompas.com^$domain=kompas.com
 
 ! site-specific popup blocking rules
 
 ! site-specific element hiding rules
+grid.id##.clearfix.ads__horizontal
 
 ! third-party blocking rules
 

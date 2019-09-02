@@ -15,8 +15,16 @@
 ! site-specific popup blocking rules
 
 ! site-specific element hiding rules
+pudelek.pl##.ads
+pudelek.pl##.wpApiAd
+ceneo.pl##.ado-space + .js_recommendations-container
+ceneo.pl##.ado-space + .js_recommendations-container + .js_recommendations-container
+ceneo.pl##.promoted-items
+ceneo.pl##[itemscope] + .js_recommendations-container
+ceneo.pl##[itemscope] + .js_recommendations-container + .js_recommendations-container
 
 ! third-party blocking rules
+||shoperia.pl/embed,$subdocument,third-party
 
 ! third-party popup blocking rules
 

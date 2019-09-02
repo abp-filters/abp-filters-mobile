@@ -11,10 +11,13 @@
 ! generic element hiding rules
 
 ! site-specific blocking rules
+||loboclick.com^$script,domain=xvideos10.blog.br
 
 ! site-specific popup blocking rules
 
 ! site-specific element hiding rules
+1news.com.br##img[width="299"][height="254"]
+mercadolivre.com.br#?#li.item:-abp-has(span:-abp-contains( Patrocinado ))
 
 ! third-party blocking rules
 

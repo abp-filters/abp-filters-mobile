@@ -11,6 +11,7 @@
 ! generic element hiding rules
 
 ! site-specific blocking rules
+||aflamsex.xxx/*/default_tube2018/*/logo.png|$image,domain=xnxxx.cc
 
 ! site-specific popup blocking rules
 
