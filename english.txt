@@ -52,7 +52,6 @@ hclips.com###hda-m
 indoxx1.stream###home-bnner-content
 ipcorner.io##.bannerdiv
 kakaku.com##.topSpotArea
-mobile.de##.adsense-slot-wrapper
 onedio.com###sponsored
 porn.com##.m-zne8
 porndroids.com##.aan
