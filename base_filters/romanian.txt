@@ -1,5 +1,4 @@
 ! adservers
-||projectagoratech.com^$third-party
 
 ! adserver popup rules
 

@@ -3,7 +3,6 @@
 ! adserver popup rules
 
 ! generic blocking rules
-##.pub_300x250
 
 ! generic dimension blocking rules
 

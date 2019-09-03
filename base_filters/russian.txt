@@ -6,13 +6,11 @@
 ||datamind.ru^$third-party
 ||digitaltarget.ru^$third-party
 ||drivenetwork.ru^$third-party
-||franecki.net^$third-party
 ||lentainform.com^$third-party
 ||mediametrics.ru^$third-party
 ||news.mirtesen.ru^$third-party
 ||nnn.ru^$third-party
 ||otm-r.com^$third-party
-||recreativ.ru^
 ||rutarget.ru^$third-party
 ||smi2.ru^$third-party
 ||upravel.com^$third-party
@@ -57,10 +55,7 @@ vesti.ru#?#.vgtrk-a1:-abp-has([id^="adfox_"])
 ||an.yandex.ru^$domain=~e.mail.ru
 ||ad.mail.ru^$domain=~e.mail.ru|~octavius.mail.ru|~otvet.mail.ru
 ||awaps.yandex.
-||b.itvnet.lv^
 ||bs.yandex.$script
-||tvnet.lv/export_news/$third-party
-||reklama.lv/promotion/
 ||ssp.rambler.ru^$domain=~ssp.rambler.ru
 ||static-mon.yandex.net/static/main.js
 ||st.astraone.io^$third-party

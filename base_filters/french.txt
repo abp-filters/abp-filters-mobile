@@ -1,5 +1,4 @@
 ! adservers
-||adsearch.pl^$third-party
 ||dmxleo.dailymotion.com^
 ||dunfermlinemulkeytown.com^
 ||franecki.net^$third-party

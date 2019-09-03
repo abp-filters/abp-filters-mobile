@@ -16,7 +16,6 @@
 
 ! site-specific element hiding rules
 24h.com.vn,eva.vn##.banner
-eva.vn##.bai_pr_recomment_2
 taimienphi.vn##.adbox
 truyenfull.vn##div[id^="ads-"]
 vnexpress.net###banner_top

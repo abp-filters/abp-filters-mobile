@@ -37,8 +37,6 @@ bento.de##.ob-p
 bz-berlin.de##.tbl-logo-right-position > .tbl-feed-header-text
 focus.de##.OUTBRAIN .ob-p
 gofeminin.de##.af-banner
-t-online.de###adcontainer1
-t-online.de###adcontainer2
 gmx.net,web.de##.adc-top
 sportbild.bild.de##div[data-skinning="tr-textlink"]
 stern.de#?#.emsTeaserContainer:-abp-contains(Anzeige)

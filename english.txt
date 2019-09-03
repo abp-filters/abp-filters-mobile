@@ -44,7 +44,7 @@ ebay.com.au#?#li.s-item:-abp-has(span:-abp-contains(SPONSORED))
 extremetube.com##.topAdtext
 gamepedia.com##.ad-container
 gamepedia.com##.xt-placement
-gamespot.com##.trc_elastic_alternating-thumbnails-a 
+gamespot.com##.trc_elastic_alternating-thumbnails-a
 gfycat.com##.floating-container
 haberturk.com##.widget-masthead
 hclips.com##.rek-link
