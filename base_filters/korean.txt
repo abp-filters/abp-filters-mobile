@@ -1,0 +1,32 @@
+! adservers
+
+! adserver popup rules
+
+! generic blocking rules
+
+! generic dimension blocking rules
+
+! generic popup blocking rules
+
+! generic element hiding rules
+
+! site-specific blocking rules
+
+! site-specific popup blocking rules
+
+! site-specific element hiding rules
+m.yna.co.kr##div[id^="mobonDivBanner"]
+m.yna.co.kr##section[class^="section-ad"]
+
+! third-party blocking rules
+||api.popin.cc/$script,third-party
+
+! third-party popup blocking rules
+
+! blocking exception rules
+
+! dimension blocking exception rules
+
+! element hiding exception rules
+
+! popup blocking exception rules

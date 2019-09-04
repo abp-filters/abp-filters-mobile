@@ -1,0 +1,58 @@
+! adservers
+||idvert.cz^$third-party
+||imedia.cz^$third-party
+||imr.sk^$third-party
+||performax.cz^
+||r.i0.cz^$third-party
+||stat.novinky.cz^
+||trackad.cz^$third-party
+
+! adserver popup rules
+
+! generic blocking rules
+||presentation.lmc.cz/aliance/
+
+! generic dimension blocking rules
+
+! generic popup blocking rules
+
+! generic element hiding rules
+###adRectangle
+###promo-box
+###reklamy
+###sklik
+##.sklik
+##[id^="sklikReklama"]
+
+! site-specific blocking rules
+||1gr.cz/js/uni/oldback/logo.png$script,domain=idnes.cz
+||a.blesk.cz^
+||a.csfd.cz^
+||a.denik.cz^
+||stat.sport.cz^
+||stat.super.cz^
+
+! site-specific popup blocking rules
+
+! site-specific element hiding rules
+csfd.cz#?#.ct-related:-abp-contains(/^\s+Reklama/)
+csfd.cz#?#.widget-group-2 li:-abp-has(div.ad-pmg)
+heureka.cz,heureka.sk##div[class*="__banner"]
+idnes.cz##[class*="r-main"]
+idnes.cz##div[id^="hyper"]
+super.cz##div.ad
+
+! third-party blocking rules
+||campaigns.caroda.io^$third-party
+
+! third-party popup blocking rules
+
+! blocking exception rules
+@@/moje-inzeraty/
+@@||static.cz.prg.cmestatic.com/static/cz/shared/js/advert.js$domain=nova.cz
+
+! dimension blocking exception rules
+
+! element hiding exception rules
+
+! popup blocking exception rules
