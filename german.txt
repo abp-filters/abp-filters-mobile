@@ -77,7 +77,7 @@ widgets.outbrain.com##div[data-src^="https://m.spiegel.de/"] .ob-p
 @@||showheroes.com/prebid.$script,domain=metal-hammer.de|rollingstone.de
 @@||smartadserver.com/2161/call^$xmlhttprequest,domain=metal-hammer.de|rollingstone.de
 @@||sueddeutsche.de^$generichide
-@@||tpc.googlesyndication.com/pagead/imgad?$image,domain=wetter.de
+@@||tpc.googlesyndication.com/pagead/imgad?$image,domain=vip.de|wetter.de
 
 ! dimension blocking exception rules
 
