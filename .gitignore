@@ -1,6 +1,6 @@
-#Track txt/md files
+# Ignore files that possess a file-extension
+*?.*
+
+# Track text and markdown files
 !*.txt
 !*.md
-
-#Ignore all other types of files
-*.*
